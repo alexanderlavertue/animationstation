@@ -1,0 +1,114 @@
+.body1{
+	background-color: red;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 4%
+}
+
+a{
+	font-size: 2rem;
+}
+
+.btw1{
+	color: white;
+	font-family: 'Public Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 4rem;
+	text-align: center; 
+	opacity: 0%;
+	animation: btw 5s 1;
+	animation-delay: 1s;
+}
+
+
+@keyframes btw{
+	0%{
+		opacity: 0%;
+	}
+
+	50%{
+		opacity: 100%;
+	}
+
+	100%{
+		opacity: 0%;
+	}
+}
+
+.line{
+	animation: line 5s 1;
+}
+
+@keyframes line{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 100%;
+	}
+}
+
+.lyrics1{
+	margin-top: -15rem;
+    color: white;
+	font-family: 'Public Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	opacity: 0%;
+	animation: lyrics1 300s infinite;
+	animation-delay: 14.3s;
+	animation-timing-function: step-start;
+}
+
+
+@keyframes lyrics1{
+0%{
+		opacity: 0%;
+	}
+
+	50%{
+		opacity: 100%;
+	}
+
+	100%{
+		opacity: 0%;
+	}
+}
+
+.color{
+	animation: color 5s infinite
+}
+
+@keyframes color{
+	0%{
+		color: black;
+	}
+
+	50%{
+		color: white;
+	}
+
+	100%{
+		color: black;
+	}
+}
+
+
+.link1{
+	margin-left: 94%;
+	font-family: 'Public Sans', sans-serif;
+	text-decoration: none;
+	color: black;
+
+}
+
+a:hover{
+	color: white;
+}
+
+audio{
+	margin-left: 43%;
+}
+
+
