@@ -10,6 +10,12 @@
 	margin-top: 3%;
 }
 
+.body3{
+	background-color: black;
+	margin: 5rem;
+	margin-top: 13.5rem;
+}
+
 a{
 	font-size: 2rem;
 }
@@ -27,6 +33,13 @@ a{
 
 .btw2{
 	color:red;
+}
+
+.play{
+	margin-left: 45%;
+	font-family: 'Public Sans', sans-serif;
+	color: white;
+
 }
 
 
@@ -92,6 +105,17 @@ a{
 	margin-top: 5rem;
 }
 
+
+.lyrics3{
+	color:red;
+	font-family: 'Public Sans', sans-serif;
+	text-transform: uppercase;
+	margin-left: 1rem;
+	font-size: 2.5rem;
+
+}
+
+
 .verse2{
 	border: solid black 2px;
 	width: 62%;
@@ -99,6 +123,7 @@ a{
 	margin-left: 19%;
 	animation: verse2 3s infinite;
     margin-top: 1%
+    margin-bottom:.2rem;
 }
     
 
@@ -116,7 +141,11 @@ a{
 	}
 }
 
-
+.verse3{
+	border:white solid 2px;
+	margin-top: 1rem;
+	margin-bottom: .2rem;
+}
 
 
 .color{
@@ -149,6 +178,11 @@ a{
 	flex-direction: row;
 	margin-left: 19%;
 	column-gap: 59rem;
+}
+
+.link3{
+	color: red;
+	text-transform: uppercase;
 }
 
 a{
@@ -242,7 +276,7 @@ audio{
 
 .five{
 	animation: five 3s 1;
-	animation-delay: 81s;
+	animation-delay: 20s;
 }
 
 @keyframes five{
@@ -261,7 +295,7 @@ audio{
 
 .six{
 	animation: six 3s 1;
-	animation-delay: 82s;
+	animation-delay: 22s;
 }
 
 @keyframes six{
@@ -280,7 +314,7 @@ audio{
 
 .seven{
 	animation: seven 3s 1;
-	animation-delay: 84s;
+	animation-delay: 24s;
 }
 
 @keyframes seven{
@@ -299,7 +333,7 @@ audio{
 
 .eight{
 	animation: eight 3s 1;
-    animation-delay: 85s;
+    animation-delay: 25s;
 }
 
 @keyframes eight{
@@ -318,7 +352,7 @@ audio{
 
 .nine{
 	animation: nine 3s 1;
-    animation-delay: 86s;
+    animation-delay: 26s;
 }
 
 @keyframes nine{
@@ -337,7 +371,7 @@ audio{
 
 .ten{
 	animation: ten 3s 1;
-	animation-delay: 87.8s;
+	animation-delay: 27s;
 }
 
 @keyframes ten{
@@ -356,7 +390,7 @@ audio{
 
 .eleven{
 	animation: eleven 3s 1;
-	animation-delay: 89s;
+	animation-delay: 28.4s;
 }
 
 @keyframes eleven{
@@ -374,8 +408,8 @@ audio{
 }
 
 .twelve{
-	animation: twelve 7s 1;
-	animation-delay: 90s;
+	animation: twelve 9s 1;
+	animation-delay: 29.3s;
 }
 
 @keyframes twelve{
@@ -391,6 +425,161 @@ audio{
 		color: black;
 	}
 }
+
+.first{
+	animation: first 5s 1;
+	animation-delay: 2s;
+}
+
+@keyframes first{
+	0%{
+		margin-left: 0%
+	}
+
+	50%{
+		margin-left: 40%;
+	}
+
+	100%{
+		margin-left: 0%;
+	}
+}
+
+.second{
+	animation: second 5s 1;
+	animation-delay: 6.6s;
+}
+
+@keyframes second{
+	0%{
+		margin-left: 0%
+	}
+
+	50%{
+		margin-left: 40%;
+	}
+
+	100%{
+		margin-left: 0%;
+	}
+}
+
+.thrid{
+	animation: third 5s 1;
+	animation-delay: 12.4s;
+}
+
+@keyframes third{
+	0%{
+		margin-left: 0%
+	}
+
+	50%{
+		margin-left: 40%;
+	}
+
+	100%{
+		margin-left: 0%;
+	}
+}
+
+.fourth{
+	animation: fourth 5s 1;
+	animation-delay: 16.8s;
+}
+
+@keyframes fourth{
+	0%{
+		margin-left: 0%
+	}
+
+	50%{
+		margin-left: 40%;
+	}
+
+	100%{
+		margin-left: 0%;
+	}
+}
+
+.fith{
+	animation: fith 5s 1;
+	animation-delay: 21s;
+}
+
+@keyframes fith{
+	0%{
+		margin-left: 0%
+	}
+
+	50%{
+		margin-left: 40%;
+	}
+
+	100%{
+		margin-left: 0%;
+	}
+}
+
+.sixth{
+	animation: sixth 5s 1;
+	animation-delay: 22s;
+}
+
+@keyframes sixth{
+	0%{
+		margin-left: 0%
+	}
+
+	50%{
+		margin-left: 40%;
+	}
+
+	100%{
+		margin-left: 0%;
+	}
+}
+
+.seventh{
+	animation: seventh 5s 1;
+	animation-delay: 23.4s;
+}
+
+@keyframes seventh{
+	0%{
+		margin-left: 0%
+	}
+
+	50%{
+		margin-left: 30%;
+	}
+
+	100%{
+		margin-left: 0%;
+	}
+}
+
+.eighth{
+	animation: eighth 13s 1;
+	animation-delay: 26s;
+}
+
+@keyframes eighth{
+	0%{
+		margin-left: 0%
+	}
+
+	50%{
+		margin-left: 40%;
+	}
+
+	100%{
+		margin-left: 0%;
+}
+
+}
+
+
 
 
 @media only screen and (max-width: 1700px){
